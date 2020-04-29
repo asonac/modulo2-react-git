@@ -29,7 +29,7 @@ Depois da live com o Zeno, eu quis testar e efetuei algumas alterações no layo
 Aproveitei também para por alguns efeitos na lista dos reposiórios e dos issues.
 
 #### Dependências do projeto
- `` 
+ ``` 
  "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
