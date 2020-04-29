@@ -9,11 +9,12 @@ Após instalada todas as depedências utilize um dos comandos abaixo para execut
 ou
 **npm**: `npm start`
 
-### ... e "Voila"... (A tela inicial para pesquisar os repositórios)
+#### ... e "Voilà"... (A tela inicial para pesquisar os repositórios)
 
 ![tidelift](https://media.discordapp.net/attachments/702945167929376908/704894250772594719/unknown.png)
 
-If you use this library on your commercial/personal projects, you can help us by funding the work on specific issues that you choose by using IssueHunt.io!
+#### Exemplo de pesquisa
+(nome do criador do repositório)/(nome do repositório)
 
 This gives you the power to prioritize our work and support the project contributors. Moreover it'll guarantee the project will be updated and maintained in the long run.
 
