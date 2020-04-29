@@ -1,5 +1,14 @@
 # Github Explorer - Explore repositórios no Github
 
+## :rocket: Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+- [React](https://reactjs.org)
+
+## 💻 Projeto
+
+O Github Explorer é um projeto que visa utilizar a api do github para buscar as informações dos repositórios que desejam ter mais informações
+
 #### Como executar este projeto.
 
 Basta clonar o projeto e no terminal da pasta do projeto, utilizar o comando `yarn` ou `npm`para instalar todas as dependências.
@@ -67,3 +76,6 @@ Aproveitei também para por alguns efeitos na lista dos reposiórios e dos issue
     "prettier": "^2.0.5"
   }
    ```
+   
+---
+Feito com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
