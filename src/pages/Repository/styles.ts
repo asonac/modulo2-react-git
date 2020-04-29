@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const Header = styled.header`
   display: flex;
@@ -9,11 +9,11 @@ export const Header = styled.header`
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #a8a8b3;
+    color: #c3c3c3;
     transition: color 0.2s;
 
     &:hover {
-      color: #666;
+      color: hsl(0, 0%, 55%);
     }
 
     svg {
@@ -40,12 +40,12 @@ export const RepositoryInfo = styled.section`
 
       strong {
         font-size: 36px;
-        color: #3d3d4d;
+        color: #c3c3c3;
       }
 
       p {
         font-size: 18px;
-        color: #737380;
+        color: hsl(0, 0%, 90%);
         margin-top: 4px;
       }
     }
@@ -64,23 +64,36 @@ export const RepositoryInfo = styled.section`
       strong {
         display: block;
         font-size: 36px;
-        color: #3d3d4d;
+        color: hsl(240, 12%, 85%);
       }
 
       span {
         display: block;
         margin-top: 4px;
-        color: #6c6c80;
+        color: hsl(240, 12%, 70%);
       }
     }
+  }
+`;
+
+const appearFromRight = keyframes`
+  from{
+    opacity: 0;
+    transform: translateX(500px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 `;
 
 export const Issues = styled.div`
   margin-top: 80px;
 
+  animation: ${appearFromRight} 3s;
+
   a {
-    background: #fff;
+    background: hsl(254, 46%, 38%);
     border-radius: 5px;
     width: 100%;
     padding: 24px;
@@ -105,7 +118,7 @@ export const Issues = styled.div`
 
       strong {
         font-size: 20px;
-        color: #3d3d4d;
+        color: hsl(240, 12%, 85%);
       }
 
       p {

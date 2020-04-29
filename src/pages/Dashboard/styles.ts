@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled, { css, keyframes } from 'styled-components';
 import { shade } from 'polished';
 
 interface FormProps {
@@ -9,7 +9,7 @@ interface FormProps {
 
 export const Title = styled.h1`
   font-size: 48px;
-  color: #3a3a3a;
+  color: #a5a5a5;
   max-width: 450 px;
   line-height: 56px;
   margin-top: 80px;
@@ -46,7 +46,7 @@ export const Form = styled.form<FormProps>`
   button {
     width: 210px;
     height: 70px;
-    background: #04d361;
+    background: hsl(254, 46%, 80%);
     border-radius: 0 5px 5px 0;
     border: 0;
     color: #fff;
@@ -54,8 +54,19 @@ export const Form = styled.form<FormProps>`
     transition: background-color 0.2;
 
     &:hover {
-      background: ${shade(0.2, '#04d361')};
+      background: ${shade(0.2, 'hsl(254, 46%, 80%)')};
     }
+  }
+`;
+
+const appearFromLeft = keyframes`
+  from{
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 `;
 
@@ -63,8 +74,10 @@ export const Repositories = styled.div`
   margin-top: 80px;
   max-width: 700px;
 
+  animation: ${appearFromLeft} 3s;
+
   a {
-    background: #fff;
+    background: hsl(254, 46%, 38%);
     border-radius: 5px;
     width: 100%;
     padding: 24px;
@@ -95,7 +108,7 @@ export const Repositories = styled.div`
 
       strong {
         font-size: 20px;
-        color: #3d3d4d;
+        color: #c3c3c3;
       }
 
       p {
@@ -114,6 +127,6 @@ export const Repositories = styled.div`
 
 export const Error = styled.span`
   display: block;
-  color: #c53030;
+  color: hsl(0, 61%, 80%);
   margin-top: 8px;
 `;
