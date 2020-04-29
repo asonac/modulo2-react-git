@@ -1,5 +1,14 @@
 # Github Explorer - Explore repositórios no Github
 
+#### Como executar este projeto.
+
+Basta clonar o projeto e no terminal da pasta do projeto, utilizar o comando `yarn` ou `npm`para instalar todas as dependências.
+Após instalada todas as depedências utilize um dos comandos abaixo para executar o projeto:
+
+**yarn**: `yarn start`
+ou
+**npm**: `npm start`
+
 ## Sponsors
 
 If you use this library on your commercial/personal projects, you can help us by funding the work on specific issues that you choose by using IssueHunt.io!
