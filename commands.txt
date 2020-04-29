@@ -1,0 +1,53 @@
+//criar projeto react typescript
+create-react-app 05-primeiro-projeto-react --template=typescript
+
+//No terminal, para abrir o VSCode na pasta
+code .
+
+//Deletar arquivos na pasta 'src'
+App.css, App.test.tsx, Index.css, logo.svg, serviceWorker.ts
+
+
+//Deletar arquivos na pasta 'public'
+favicon.ico,  logo192.png, logo512.png, manifest.json
+
+//adicionar o eslint -padronização do código
+yarn add eslint -D
+
+//remover no arquivo package.json a configuração:
+ "eslintConfig": {
+    "extends": "react-app"
+  },
+
+//inicializar o eslint
+yarn eslint --init
+
+//Após inicializar ele retornará as importações que precisam ser realizadas
+yarn add eslint-plugin-react@^7.19.0 @typescript-eslint/eslint-plugin@latest eslint-config-airbnb@latest eslint-plugin-import@^2.20.1 eslint-plugin-jsx-a11y@^6.2.3 eslint-plugin-react-hooks@^2.5.0 @typescript-eslint/parser@latest -D
+
+//Corrigir as importações nos arquivos typescript
+yarn add eslint-import-resolver-typescript
+
+//Configurar o prettier
+yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+
+//Bliblioteca para definir as rotas do web app
+yarn add react-router-dom
+
+//Adicionar os tipos para preenchimento autotico da biblioteca anterior
+yarn add @types/react-router-dom
+
+//uma das melhores bibliotecas de estilo
+yarn add styled-components
+
+//Adicionar os tipos da biblioteca
+yarn add @types/styled-componentsty
+
+//Biblioteca para trabalhar com cores
+yarn add polished
+
+//Biblioteca de ícones
+yarn add react-icons
+
+//Biblioteca para consumir as api's
+yarn add axios
