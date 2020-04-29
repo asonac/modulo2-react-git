@@ -15,6 +15,12 @@ ou
 
 #### Exemplo de pesquisa
 (nome do criador do repositório)/(nome do repositório)
+Exemplos:
+- Rocketseat/awesome
+- Rocketseat/unform
+- facebook/react
+- facebook/react-native
+- asonac/bethehero
 
 This gives you the power to prioritize our work and support the project contributors. Moreover it'll guarantee the project will be updated and maintained in the long run.
 
