@@ -7,7 +7,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Github Explorer é um projeto que visa utilizar a api do github para buscar as informações dos repositórios que desejam ter mais informações
+O Github Explorer é um projeto que visa utilizar a api do github para buscar as informações dos repositórios que desejam ter mais informações.
 
 #### Como executar este projeto.
 
